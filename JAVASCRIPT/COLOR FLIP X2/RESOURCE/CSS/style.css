@@ -1,16 +1,30 @@
-main {
-  min-height: calc(100vh - 3rem);
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.grid-container {
   display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: auto auto;
   place-items: center;
 }
 
-.container {
+.grid-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  font-size: 1rem;
 }
 
 #box01 {
-  width: 50%;
-  float: left;
+  height: 100%;
 }
 
 #box01 h2 {
@@ -18,13 +32,15 @@ main {
   color: #fff;
   padding: 1rem;
   border-radius: : 0.25rem;
-  margin-bottom: 2.5rem;
+}
+
+#button {
+  position: absolute;
 }
 
 #box02 {
-  width: 50%;
-  float: right;
-  background-color: #222;
+  height: 100%;
+  background-color: black;
 }
 
 #box02 h2 {
@@ -32,7 +48,6 @@ main {
   color: #222;
   padding: 1rem;
   border-radius: : 0.25rem;
-  margin-bottom: 2.5rem;
 }
 
 .color {
@@ -41,15 +56,14 @@ main {
 
 .btn-hero {
   text-transform: uppercase;
-  background: transparent;
-  color: #222;
+  background-color: white;
   letter-spacing: .1rem;
   display: inline-block;
   font-weight: 700;
   transition: all .3s linear;
-  border: 2px solid #222;
+  border: 3px solid #222;
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, .2);
   border-radius: .25rem;
   font-size: 1rem;
   padding: .75rem 1.25rem;
