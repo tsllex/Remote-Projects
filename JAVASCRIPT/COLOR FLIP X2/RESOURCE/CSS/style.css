@@ -25,6 +25,7 @@ body {
 
 #box01 {
   height: 100%;
+  /* background-color: white; */
 }
 
 #box01 h2 {
@@ -40,7 +41,7 @@ body {
 
 #box02 {
   height: 100%;
-  background-color: black;
+  /* background-color: black; */
 }
 
 #box02 h2 {
@@ -48,10 +49,6 @@ body {
   color: #222;
   padding: 1rem;
   border-radius: : 0.25rem;
-}
-
-.color {
-  color: hsl(205, 78%, 60%);
 }
 
 .btn-hero {
