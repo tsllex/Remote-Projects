@@ -1,0 +1,17 @@
+[data-component="slideshow01"] .slide01 {
+  display: none;
+  text-align: center;
+}
+
+[data-component="slideshow01"] .slide01.active {
+  display: block;
+}
+
+[data-component="slideshow02"] .slide02 {
+  display: none;
+  text-align: center;
+}
+
+[data-component="slideshow02"] .slide02.active {
+  display: block;
+}

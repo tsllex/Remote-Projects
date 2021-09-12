@@ -1,0 +1,41 @@
+body {
+  font-family: Helvetica, Georgia, sans-serif;
+  width: 100:auto;
+  padding: 0;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: khaki;
+}
+
+h3 {
+  font-size: 32px;
+  color: white;
+}
+
+img {
+  width: 300px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.price {
+  color: blue;
+}
+
+#brushes>h3 {
+  background-color: mediumspringgreen;
+}
+
+#frames>h3 {
+  background-color: lightcoral;
+}
+
+#paint>h3 {
+  background-color: skyblue;
+}
