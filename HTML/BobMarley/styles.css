@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  background: linear-gradient(#9C9359, #F7CE76, #DC828F);
+  font-family: 'Montserrat', 'Fascinate', 'Open Sans Condensed', sans-serif;
+}
+
+#portrait>img {
+  float: left;
+  width: 50%;
+  position: fixed;
+  display: block;
+}
+
+#bio {
+  width: 50%;
+  float: right;
+  /* display: inline; */
+}
+
+#bio>p {
+  font-size: 30px;
+  /* display: inline-block; */
+}
+
+#bio>#a {
+  font-family: : 'Montserrat';
+}
+
+#bio>#b {
+  font-family: 'Fascinate';
+}
+
+#bio>#c {
+  font-family: 'Open Sans Condensed';
+}
