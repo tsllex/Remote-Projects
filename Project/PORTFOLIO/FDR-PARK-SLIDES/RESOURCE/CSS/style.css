@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(-135deg, rgb(36, 36, 35) 10%, transparent),
+    repeating-linear-gradient(45deg,
+      rgba(245, 203, 92, 1) 0%,
+      rgba(153, 115, 10, 0.6) 5%,
+      transparent 5%,
+      transparent 10%),
+    repeating-linear-gradient(-45deg,
+      rgba(245, 203, 92, 1) 0%,
+      rgba(153, 115, 10, 0.6) 5%,
+      transparent 5%,
+      transparent 10%);
+  background-color: rgba(51, 53, 51, 1);
+  color: white;
+  height: 6vw;
+  min-height: 3rem;
+  font-size: 2rem;
+}
+
+main {
+  height: 500px;
+}
