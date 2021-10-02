@@ -11,8 +11,7 @@ header {
       rgba(245, 203, 92, 1) 0%,
       rgba(153, 115, 10, 0.6) 5%,
       transparent 5%,
-      transparent 10%),
-    repeating-linear-gradient(-45deg,
+      transparent 10%), repeating-linear-gradient(-45deg,
       rgba(245, 203, 92, 1) 0%,
       rgba(153, 115, 10, 0.6) 5%,
       transparent 5%,
@@ -24,6 +23,61 @@ header {
   font-size: 2rem;
 }
 
-main {
+.slideshows {
+  width: 100%;
+  padding: 2rem;
+  background-color: rgb(36, 36, 35);
+  color: white;
+  /* height: 525px; */
+}
+
+.mainSlides {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
   height: 500px;
+}
+
+.mainSlides>img {
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+[data-component="mainSlideshow"] .mainSlides {
+  display: none;
+  text-align: center;
+}
+
+[data-component="mainSlideshow"] .mainSlides.active {
+  display: block;
+  animation: faded 7s linear infinite;
+}
+
+#info {
+  position: relative;
+  left: 950px;
+  bottom: 450px;
+  height: 400px;
+  width: 30%;
+  overflow-y: scroll;
+  font-size: 1.5rem;
+  background-color: rgba(36, 36, 35, .8);
+  border: 7px solid black;
+  border-radius: 10px;
+}
+
+@keyframes faded {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0
+  }
 }
